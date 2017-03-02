@@ -1,0 +1,32 @@
+.status {
+	background-color: lightgray;
+	float: left;
+	height: 100%;
+	margin: 4px;
+	min-width: 200px;
+}
+
+.status .heading {
+	background-color: gray;
+	padding: 4px 8px;
+	text-align: center;
+}
+
+.tile {
+	border: 1px solid gray;
+	border-radius: 4px;
+	margin: 4px;
+}
+
+.tile .heading {
+	background-color: lightgreen;
+	border-radius: 4px 4px 0 0;
+	border-bottom: 1px solid gray;
+	cursor: move;
+}
+
+.tile .content {
+	background-color: white;
+	border-radius: 0 0 4px 4px;
+	padding: 4px;
+}
